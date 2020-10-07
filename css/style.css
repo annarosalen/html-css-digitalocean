@@ -9,6 +9,11 @@
   color: white;
 }
 
+/* media query */
+/* @media screen and (mi) {
+
+} */
+
 /************************ intestazione***********+ */
 
 .navbar{
@@ -34,15 +39,15 @@
   background-size: cover;
 }
 
-#jumbotron .ms_jumbo-left{
+#jumbo-left{
   padding: 100px;
 }
 
-.ms_jumbo-right{
+
+#jumbo-right{
   background-color: white;
   margin: 50px;
   padding: 20px;
-  text-align: center;
 }
 
 #get-started{
@@ -60,4 +65,28 @@
 
 #button-psw{
   background-color: #4e9cfd;
+}
+
+/**************** corpo centrale************* */
+
+/* sezione loghi */
+
+#section-loghi{
+  background-color: #f3f5f9;
+
+}
+
+#titolo-sezloghi{
+  padding-top: 30px;
+  color: grey;
+}
+
+#loghi img{
+  width: 100px;
+  height: 77px;
+}
+
+#customer-stories{
+  padding-top: 30px;
+  font-size: 20px;
 }
