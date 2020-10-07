@@ -1,0 +1,26 @@
+/* regole di debug */
+[class*="col-"]{
+  min-height: 100px;
+  border: solid black 1px;
+}
+
+
+/************************ intestazione***********+ */
+
+.navbar{
+  background-color: white;
+  border: none;
+}
+
+.navbar-brand img{
+  max-width: 100px;
+}
+
+
+
+
+
+.navbar button{
+  color: #9dc5ff;
+  border-color: #9dc5ff;
+}
