@@ -4,6 +4,10 @@
   border: solid black 1px;
 }
 
+/* regole generali */
+.ms_text-white{
+  color: white;
+}
 
 /************************ intestazione***********+ */
 
@@ -12,15 +16,48 @@
   border: none;
 }
 
+
 .navbar-brand img{
   max-width: 100px;
 }
 
 
-
-
-
 .navbar button{
-  color: #9dc5ff;
-  border-color: #9dc5ff;
+  color: #4e9cfd;
+  border-color: #4e9cfd;
+}
+
+/* *****jumbotron****** */
+
+#jumbotron{
+  background-image: url(../img/bg-home-hero-3.svg);
+  background-size: cover;
+}
+
+#jumbotron .ms_jumbo-left{
+  padding: 100px;
+}
+
+.ms_jumbo-right{
+  background-color: white;
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+#get-started{
+  color: #4e9cfd;
+}
+
+.form-control{
+  border: none;
+}
+
+.btn-default{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#button-psw{
+  background-color: #4e9cfd;
 }
