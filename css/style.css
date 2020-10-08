@@ -122,8 +122,21 @@
 
 
 
-/* quarta sezione */
+/* auinta sezione */
 
 #aroundworld{
   background-color: #003bb9;
+}
+
+#riga-tabella-world{
+  padding: 20px;
+
+}
+
+#riga-tabella-world p{
+  color: lightgrey;
+}
+#riga-tabella-world a{
+  color: lightblue;
+  text-decoration: underline;
 }
