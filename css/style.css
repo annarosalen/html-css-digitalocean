@@ -9,10 +9,8 @@
   color: white;
 }
 
-/* media query */
-/* @media screen and (mi) {
 
-} */
+
 
 /************************ intestazione***********+ */
 
@@ -69,11 +67,10 @@
 
 /**************** corpo centrale************* */
 
-/* sezione loghi */
+/* prima sezione (loghi )*/
 
 #section-loghi{
   background-color: #f3f5f9;
-
 }
 
 #titolo-sezloghi{
@@ -90,3 +87,5 @@
   padding-top: 30px;
   font-size: 20px;
 }
+
+/* seconda sezione */
