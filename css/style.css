@@ -14,18 +14,18 @@
 
 /************************ intestazione***********+ */
 
-.navbar{
+#barra-sopra .navbar{
   background-color: white;
   border: none;
 }
 
 
-.navbar-brand img{
+#barra-sopra .navbar-brand img{
   max-width: 100px;
 }
 
 
-.navbar button{
+#barra-sopra .navbar button{
   color: #4e9cfd;
   border-color: #4e9cfd;
 }
@@ -52,11 +52,11 @@
   color: #4e9cfd;
 }
 
-.form-control{
+#jumbo-right .form-control{
   border: none;
 }
 
-.btn-default{
+#jumbotron .btn-default{
   width: 100%;
   margin-bottom: 10px;
 }
@@ -89,3 +89,30 @@
 }
 
 /* seconda sezione */
+
+#testo-deploy{
+  padding: 20px 200px;
+}
+
+#testo-deploy p{
+  font-size: 20px;
+}
+
+#deploy-left ul{
+  padding: 20px 50px;
+}
+
+#deploy-left li{
+  list-style: none;
+  border-left: solid 1px lightgrey;
+  padding: 10px;
+}
+
+#deploy-left a{
+  font-size: 18px;
+  color: grey;
+}
+
+#deploy-right{
+  padding: 20px 50px;
+}
