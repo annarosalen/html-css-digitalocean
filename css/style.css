@@ -9,6 +9,17 @@
   color: white;
 }
 
+.ms_titolo-section{
+  padding: 20px 200px;
+}
+
+.ms_titolo-section p{
+  font-size: 20px;
+}
+
+.ms_padding{
+  padding: 20px;
+}
 
 
 
@@ -90,16 +101,8 @@
 
 /* seconda sezione */
 
-#testo-deploy{
-  padding: 20px 200px;
-}
-
-#testo-deploy p{
-  font-size: 20px;
-}
-
 #deploy-left ul{
-  padding: 20px 50px;
+  padding: 20px 20px;
 }
 
 #deploy-left li{
@@ -113,6 +116,14 @@
   color: grey;
 }
 
-#deploy-right{
-  padding: 20px 50px;
+
+/* terza sezione */
+
+
+
+
+/* quarta sezione */
+
+#aroundworld{
+  background-color: #003bb9;
 }
