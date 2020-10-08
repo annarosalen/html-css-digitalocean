@@ -1,7 +1,7 @@
 /* regole di debug */
 [class*="col-"]{
-  min-height: 100px;
-  border: solid black 1px;
+  /* min-height: 100px; */
+  /* border: solid black 1px; */
 }
 
 /* regole generali */
@@ -121,7 +121,9 @@
 
 
 /* terza sezione */
-
+#designed{
+  background-color: #f3f5f9;
+}
 
 
 
@@ -150,6 +152,7 @@
 #development-teams{
   background-color: #f3f5f9;
 }
+
 
 /* ultima sezione */
 
@@ -192,6 +195,10 @@
   padding-right: 10px;
 }
 
+#footer-right{
+  padding: 20px;
+}
+
 #footer-right ul{
   padding-inline-start: 0;
   list-style: none;
@@ -202,8 +209,4 @@
 }
 #footer-right li a{
   color: lightgrey;
-}
-
-#footer-right{
-  padding: 20px;
 }
