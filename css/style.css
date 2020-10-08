@@ -10,7 +10,10 @@
 }
 
 .ms_titolo-section{
-  padding: 20px 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .ms_titolo-section p{
@@ -139,4 +142,68 @@
 #riga-tabella-world a{
   color: lightblue;
   text-decoration: underline;
+}
+
+
+/* sesta sezione */
+
+#development-teams{
+  background-color: #f3f5f9;
+}
+
+/* ultima sezione */
+
+#create-account{
+  background-color: #003bb9;
+}
+
+#create-account a{
+  background-color: white;
+  color: blue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+/************************footer********** */
+
+#sezfooter{
+  background-color: #031c4e;
+}
+
+#footer-left{
+  padding: 20px;
+}
+
+#footer-left img{
+  margin-bottom: 10px;
+}
+#footer-left p{
+  line-height: 10px;
+}
+
+#footer-left span{
+  color: lightgrey;
+}
+
+#footer-left li{
+  display: inline-block;
+  line-height: 30px;
+  padding-right: 10px;
+}
+
+#footer-right ul{
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+#footer-right li{
+  line-height: 25px;
+}
+#footer-right li a{
+  color: lightgrey;
+}
+
+#footer-right{
+  padding: 20px;
 }
