@@ -1,8 +1,8 @@
 /* regole di debug */
-[class*="col-"]{
+/* [class*="col-"]{
   /* min-height: 100px; */
   /* border: solid black 1px; */
-}
+
 
 /* regole generali */
 .ms_text-white{
@@ -24,9 +24,38 @@
   padding: 20px;
 }
 
+.ms_sez-padding{
+  padding: 40px;
+}
+
+/* carousel****** */
+#carousel-development, #carousel-designed{
+  max-width: 500px;
+  margin: auto;
+}
+
+#carousel-development .left, #carousel-designed .left{
+  background-image: none;
+}
+
+.glyphicon{
+  background-color: black;
+}
+
+#carousel-development .right, #carousel-designed .right {
+  background-image: none;
+}
 
 
 /************************ intestazione***********+ */
+
+#barra-sopra{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 300;
+}
 
 #barra-sopra .navbar{
   background-color: white;
@@ -47,6 +76,7 @@
 /* *****jumbotron****** */
 
 #jumbotron{
+  margin-top: 50px;
   background-image: url(../img/bg-home-hero-3.svg);
   background-size: cover;
 }
@@ -77,6 +107,12 @@
 
 #button-psw{
   background-color: #4e9cfd;
+}
+
+#google{
+  background-image: url(../img/google-icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /**************** corpo centrale************* */
