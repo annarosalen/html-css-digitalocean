@@ -28,7 +28,7 @@
   padding: 40px;
 }
 
-/* carousel****** */
+/* *****carousel****** */
 #carousel-development, #carousel-designed{
   max-width: 500px;
   margin: auto;
@@ -38,17 +38,19 @@
   background-image: none;
 }
 
+#carousel-development .right, #carousel-designed .right {
+  background-image: none;
+}
+
 .glyphicon{
   color: black;
 }
 
 .carousel-control.right {
-    right: 0;
-    left: auto;
+    right: -15%;
 }
-
-#carousel-development .right, #carousel-designed .right {
-  background-image: none;
+.carousel-control.left {
+    left: -15%;
 }
 
 
