@@ -39,7 +39,12 @@
 }
 
 .glyphicon{
-  background-color: black;
+  color: black;
+}
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
 }
 
 #carousel-development .right, #carousel-designed .right {
@@ -138,6 +143,11 @@
   font-size: 20px;
 }
 
+#customer-stories .fa-chevron-right{
+  font-size: 15px;
+  padding-left: 10px;
+}
+
 /* seconda sezione */
 
 #deploy-left ul{
@@ -194,6 +204,7 @@
 
 #create-account{
   background-color: #003bb9;
+  text-align: center;
 }
 
 #create-account a{
